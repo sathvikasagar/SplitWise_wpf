@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitwiseWPF\\SplitwiseWPF.csproj",
+      "projectUniqueName": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitWise_wpf\\SplitwiseWPF\\SplitwiseWPF.csproj",
       "projectName": "SplitwiseWPF",
-      "projectPath": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitwiseWPF\\SplitwiseWPF.csproj",
+      "projectPath": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitWise_wpf\\SplitwiseWPF\\SplitwiseWPF.csproj",
       "packagesPath": "C:\\Users\\sathvika_admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitwiseWPF\\obj\\",
+      "outputPath": "C:\\Users\\sathvika_admin\\source\\repos\\SplitwiseWPF\\SplitWise_wpf\\SplitwiseWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

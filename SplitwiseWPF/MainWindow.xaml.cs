@@ -16,17 +16,13 @@ using Microsoft.Win32;
 
 namespace SplitwiseWPF
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
         }
-        List<Friend> friends = new List<Friend>();
-        List<String> output = new List<string>();
+
         private void inputCsvFile(object sender, RoutedEventArgs e)
         {
             OpenFileDialog fileDialog = new OpenFileDialog();
@@ -35,6 +31,9 @@ namespace SplitwiseWPF
             if (fileDialog.ShowDialog() == true)
             {
                 string[] csvLines = System.IO.File.ReadAllLines(fileDialog.FileName);
+
+                var friends = new List<Friend>();
+                var output = new List<string>();
 
                 Calculate(csvLines, friends, output);
 
